@@ -8,20 +8,20 @@ client.on('ready', () => {
     client.request('SET_ACTIVITY', {
         pid: process.pid,
         activity: {
-            details: "Reklamownia • SrC4Sell",
-            state: "🛒 Zareklamuj się u nas!",
+            details: "text",
+            state: "text",
             assets: {
                 large_image: "main",  
-                large_text: "SrC4Sell"
+                large_text: "text"
             },
             buttons: [
-                { label: "✅ Dołącz", url: "https://discord.gg/5GsDnZUG4M" }
+                { label: "text", url: "url" }
             ]
         }
     });
 });
 
 client.login({
-    clientId: '', 
-    clientSecret: '' 
+    clientId: 'text', 
+    clientSecret: 'text' 
 });
